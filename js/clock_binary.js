@@ -14,10 +14,10 @@ function displayBinaryTime() {
     const minDots = document.querySelectorAll('.min .dot');
     const secDots = document.querySelectorAll('.sec .dot');
 
-    for(let i = 0; i < binSecs.length; i++) {
-        (binHours[i]== 1) ? hourDots[i].classList.add('on') : hourDots[i].classList.remove('on');
-        (binMins[i]== 1) ? minDots[i].classList.add('on') : minDots[i].classList.remove('on');
-        (binSecs[i]== 1) ? secDots[i].classList.add('on') : secDots[i].classList.remove('on');
+    for (let i = 0; i < binSecs.length; i++) {
+        (binHours[i] == 1) ? hourDots[i].classList.add('on'): hourDots[i].classList.remove('on');
+        (binMins[i] == 1) ? minDots[i].classList.add('on'): minDots[i].classList.remove('on');
+        (binSecs[i] == 1) ? secDots[i].classList.add('on'): secDots[i].classList.remove('on');
     }
 
     setTimeout(displayBinaryTime, 1000);

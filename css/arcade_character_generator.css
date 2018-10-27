@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.arcade {
+    margin: auto;
+    width: 20rem;
+}
+
+canvas {
+    padding: 1rem;
+    border: 1rem solid black;
+}
